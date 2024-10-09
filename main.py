@@ -68,7 +68,7 @@ def bot(text):
 text = ""
 
 nest_asyncio.apply()
-TOKEN = '6488268785:AAEl4ClvAOQi-K3ukQB647bOTJzZKRNVLWE'
+TOKEN = ''
 async def reply(update: Update, context) -> None:
 
     user_text = update.message.text
